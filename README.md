@@ -24,8 +24,13 @@ A simple movie browsing web app that fetches and displays popular movies using t
 ---
 
 ## 📸 Preview
+##BEFORE SEARCH
 <img width="1342" height="607" alt="image" src="https://github.com/user-attachments/assets/c3fe2b0d-fb5d-4bc0-b43e-68ec9fa0ea71" />
 
+
+
+
+AFTER SEARCH
 <img width="1342" height="607" alt="image" src="https://github.com/user-attachments/assets/ab40dac2-51f0-436e-b67d-5748cc3b4faa" />
 
 
