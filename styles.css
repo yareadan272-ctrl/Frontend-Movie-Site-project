@@ -64,16 +64,21 @@ input {
   width: 100%;
   padding: 6px 9px;
 }
+
 .thumbnail {
   width: 350px;
   height: 300px;
 }
+
 .column {
+  
   float: left;
   width: 25%;
   padding: 10px 10px;
 }
+
 .card {
+  
   display: flex;
   flex-direction: column;
   align-items: center;
