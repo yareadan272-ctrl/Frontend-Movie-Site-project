@@ -1,3 +1,4 @@
+
 const APILINK =
   "http://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=d24d707ba3fb208316f0a0ec7589a90f&page=1";
 const IMG_PATH = "https://image.tmdb.org/t/p/w1280";
@@ -38,6 +39,7 @@ function returnMovies(url) {
     });
 }
 
+
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   main.innerHTML = '';
@@ -47,3 +49,4 @@ form.addEventListener("submit", (e) => {
     search.value = "";
   }
 });
+
