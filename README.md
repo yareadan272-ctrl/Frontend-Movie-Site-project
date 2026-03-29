@@ -84,6 +84,9 @@ Then open `index.html` in your browser.
 * Some browsers block requests if the API is incorrect or insecure
 * If nothing shows, check the console (F12)
 
+
+  
+
 ---
 
 ## 📌 Future Improvements
@@ -106,3 +109,5 @@ Then open `index.html` in your browser.
 ## 📄 License
 
 This project is open source and free to use.
+
+
