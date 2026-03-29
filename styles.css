@@ -1,18 +1,22 @@
 /* Reset + base */
+
 * {
   box-sizing: border-box;
 }
+
 
 body {
   background-color: #131720;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
  
 }
+
 /* Headings */
 h3 {
   color: beige;
 
 }
+
 
 /* Navbar */
 .topnav {
@@ -20,6 +24,7 @@ h3 {
   padding: 10px 20px;
   background-color: #131720;
 }
+
 
 .topnav a {
   display: block;
@@ -30,7 +35,8 @@ h3 {
   text-decoration: none;
   font-size: 1.2rem;
   text-transform: uppercase;
- 
+
+  
 }
 .topnav .search-container {
   float: right;
@@ -47,6 +53,7 @@ form {
   display: flex;
   align-items: center;
 }
+
 
 input {
   all: unset;
