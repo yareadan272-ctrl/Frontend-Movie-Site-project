@@ -69,11 +69,7 @@ const API_KEY = "your_api_key_here";
 ## ▶️ Run Locally
 
 Just open the project:
-
-```bash
-git clone https://github.com/your-username/movies-site.git
-cd movies-site
-```
+(https://github.com/ADN1SK/Frontend-Movie-Site-project.git)
 
 Then open `index.html` in your browser.
 
