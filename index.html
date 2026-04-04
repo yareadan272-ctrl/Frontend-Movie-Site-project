@@ -1,32 +1,45 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Movies Site</title>
+    <title>NETFLIX | Adam's Cut</title>
     <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
+    <link rel="icon" href="icon.png" type="image/x-icon" />
+</head>
+<body>
+    <nav class="topnav">
+        <div class="nav-left">
+            <a class="logo logo-animate" href="#" id="logo-home">NETFLIX</a>
+            <div class="nav-links">
+                <span id="show-home">Home</span>
+                <span id="show-favorites">My List ❤️</span>
+            </div>
+        </div>
+        <div class="search-container">
+            <form id="form">
+                <input type="search" id="query" placeholder="Titles, genres..." autocomplete="off"/>
+            </form>
+        </div>
+    </nav>
 
-    <div class="topnav">
-      <a class="active" href="#">Movies Site</a>
+    <header id="hero" class="hero"></header>
 
-      <div class="search-container">
-        <form role="search" id="form">
-          <input
-            type="search"
-            id="query"
-            name="q"
-            placeholder="Search for a movie or series..."
-          />
-        </form>
-      </div>
+    <main id="main-content">
+        <h2 id="section-title" class="section-title">Trending Now</h2>
+        <section id="section" class="grid"></section>
+        <div id="history-container" style="display: none;">
+            <h2 class="section-title">Recently Viewed 🍿</h2>
+            <section id="history-section" class="grid"></section>
+        </div>
+    </main>
+
+    <div id="movie-modal" class="modal">
+        <span class="close-modal">&times;</span>
+        <div class="modal-content">
+            <div id="modal-body"></div>
+        </div>
     </div>
-    <div style="padding: 16;"></div>
-    <section id="section">
-
-    </section>
-
     <script src="script.js"></script>
-  </body>
+</body>
 </html>
